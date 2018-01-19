@@ -31,7 +31,7 @@
                     <div class="level-right">
                       <div class="level-item">
                         <a class="button is-warning is-small" :href="resource.metadata.link">
-                          <span> 	&#128279; Visit Website</span>
+                          <span>&#128279; Visit Website</span>
                         </a>
                       </div>
                     </div>
