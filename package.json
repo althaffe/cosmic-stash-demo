@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "bulma": "^0.6.2",
-    "cosmicjs": "^2.4.22",
+    "cosmicjs": "latest",
     "dotenv": "^4.0.0",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
