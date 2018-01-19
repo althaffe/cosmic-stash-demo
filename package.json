@@ -11,9 +11,9 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "axios": "^0.17.1",
     "bulma": "^0.6.2",
     "cosmicjs": "^2.4.22",
+    "dotenv": "^4.0.0",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
   },

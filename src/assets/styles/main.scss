@@ -1,1 +1,39 @@
-@import '~bulma/bulma'
+@import "~bulma/sass/utilities/_all";
+// @import "~bulma/sass/utilities/derived-variables";
+// @import "~bulma/sass/utilities/functions";
+
+$widescreen: 960px + (2 * $gap);
+$fullhd: 960px + (2 * $gap);
+
+// $box-background-color: $warning;
+$box-shadow: none;
+$box-radius: 0;
+// $box-padding: 6rem 2rem;
+
+main {
+  min-height: calc(100vh - 232px);
+  background-color: $light;
+}
+.is-fullheight {
+  height: 100%;
+}
+.box {
+  color: $warning;
+}
+.c {
+  // background-color: $light;
+}
+.category-list .box {
+  background-color: $warning;
+  padding: 6rem 2rem;
+  box-shadow: none;
+}
+.hero .title {
+  font-family: 'Poppins';
+  letter-spacing: 3px;
+  line-height: 1.4;
+}
+.resource-list .box {
+  border-bottom: 2px solid $warning;
+}
+@import "~bulma/bulma";

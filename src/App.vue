@@ -1,7 +1,22 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <nav class="navbar is-warning">
+      <div class="container">
+        <div class="navbar-brand">
+          <router-link to="/" class="navbar-item is-size-3 logo has-text-dark">
+            <b>JavaScript</b> Stash
+          </router-link>
+        </div>
+      </div>
+    </nav>
     <router-view/>
+    <footer class="footer">
+      <div class="container">
+        <div class="content has-text-centered">
+          Proudly Powered By <a href="https://cosmicjs.com" class="has-text-dark"><strong>Cosmic JS</strong></a>
+        </div>
+      </div>
+    </footer>
   </div>
 </template>
 
@@ -10,14 +25,3 @@ export default {
   name: 'App'
 }
 </script>
-
-<style lang="scss">
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
