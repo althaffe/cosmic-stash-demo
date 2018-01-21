@@ -96,6 +96,11 @@ export default {
   display: flex;
   align-items: center;
 }
+.resource-image img {
+  width: auto;
+  max-height: 100%;
+  margin: 0 auto;
+}
 .underline {
   text-decoration: underline;
 }
