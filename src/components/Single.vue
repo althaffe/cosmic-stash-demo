@@ -15,7 +15,9 @@
             <article class="media">
               <div class="media-left">
                 <figure class="image is-128x128 resource-image">
-                  <img :src="resource.metadata.image.url" alt="Image">
+                  <a :href="resource.metadata.link">
+                    <img :src="resource.metadata.image.imgix_url + '?w=300'" alt="Image">
+                  </a>
                 </figure>
               </div>
               <div class="media-content">
@@ -23,9 +25,9 @@
                   <div class="level">
                     <div class="level-left">
                       <div class="level-item">
-                        <h2 class="is-size-4 has-text-weight-bold resource-title">
+                        <a class="is-size-4 has-text-weight-bold resource-title has-text-dark" :href="resource.metadata.link">
                           {{ resource.title }}
-                        </h2>
+                        </a>
                       </div>
                     </div>
                     <div class="level-right">
