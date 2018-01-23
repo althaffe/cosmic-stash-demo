@@ -8,13 +8,13 @@
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "node server.js",
     "lint": "eslint --ext .js,.vue src",
-    "build": "node build/build.js",
-    "heroku-postbuild": "npm run build"
+    "build": "node build/build.js"
   },
   "dependencies": {
     "bulma": "^0.6.2",
     "cosmicjs": "latest",
     "dotenv": "^4.0.0",
+    "express": "^4.16.2",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
   },
