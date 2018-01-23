@@ -94,10 +94,6 @@ export default {
   font-family: 'Poppins', sans-serif;
   margin-bottom: 0;
 }
-.resource-image {
-  display: flex;
-  align-items: center;
-}
 .resource-image a {
   height: 100%;
   margin: 0 auto;
