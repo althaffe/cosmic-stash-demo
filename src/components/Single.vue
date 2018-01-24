@@ -96,7 +96,10 @@ export default {
 }
 .resource-image a {
   height: 100%;
-  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .resource-image img {
   width: auto;
