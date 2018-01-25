@@ -1,4 +1,5 @@
 # cosmic-stash
+![preview](preview.png)
 
 > A content curation app built with Vue and Cosmic JS
 
