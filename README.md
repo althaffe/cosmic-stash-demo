@@ -3,7 +3,7 @@
 
 > A content curation app built with Vue and Cosmic JS
 
-> [Check out the live demo hosted on Netlify](https://cosmic-stash.netlify.com)
+> [Check out the live demo hosted on Cosmic JS hosting](http://cosmic-stash.cosmicapp.co)
 
 ## Build Setup
 
